@@ -32,10 +32,10 @@
 <div class="container">
     @include('components.header')
 
-    <div class="jumbotron">
-        <h1><i class="fa fa-star fa-fw"></i> Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    </div>
+    {{--<div class="jumbotron">--}}
+        {{--<h1><i class="fa fa-star fa-fw"></i> Jumbotron heading</h1>--}}
+        {{--<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>--}}
+    {{--</div>--}}
 
     <div class="row marketing">
         <div class="col-lg-12">
@@ -58,9 +58,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/masonry.pkgd.min.js"></script>
 
 <script src="/js/app.js"></script>
-
 
 </body>
 </html>

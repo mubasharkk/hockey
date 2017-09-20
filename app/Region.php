@@ -15,6 +15,6 @@ class Region extends Model
 
     public function clubs()
     {
-        return $this->hasMany('\App\Club','region', 'name');
+        return $this->hasMany('\App\Club','region', 'name')->orderBy('name', 'ASC');
     }
 }
